@@ -14,6 +14,16 @@ A response can be an html, json, img, js file, etc.
 We can create a dynamic response by querying a database and based on the database create a response that is adjusted for the current user.
 We will learn how to build REST server.
 
+## How the course is divided
+
+It's very hard to create an Http server application using only Node.js
+Node.js contains very basic tools for creating such an app.
+That is why to accomplish our goal of creating backend applications we usually combine Node.js with another library for create our backend app.
+
+We will combine Node.js and Express.js to create a server and the course will be divided to 2:
+- Node part
+- Express part.
+
 ## Prerequisites
 
 I'm assuming you have basic knowledge and experience with Javascript.
