@@ -14,6 +14,12 @@ In this lesson we will learn how to do that.
 - npm
 - community modules
 
+## Types of Modules
+
+1. Your project files - node can tell with the relative in require
+2. built in modules
+3. community modules
+
 ## EX.
 
 - create an empty new folder for this ex.
