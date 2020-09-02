@@ -1,5 +1,36 @@
 # Introduction to Node.js
 
+## What is Node.js
+
+Node.js can run js
+
+## Javascript
+
+- async code
+- event driven
+- single threaded***
+  - automatic multi thread
+  
+## Node Parts
+
+1. V8 - stack - Heap - Garbage collector - main thread
+2. Node C++ API - thread pool (4 thread) - kernel
+3. Event Loop - queue - I can only push callbacks to the V8 if the stack is empty 
+
+## What's our plan
+
+Part 1:
+Node contains:
+- js runtime
+- global functions
+- ships with basic libraries, dll
+
+Part 2:
+- Express.js
+- Sails.js
+- NestJS
+
+
 ## Lesson Plan
 
 - What is Node.js
