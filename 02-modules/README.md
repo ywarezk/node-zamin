@@ -18,7 +18,33 @@ In this lesson we will learn how to do that.
 
 1. Your project files - node can tell with the relative in require
 2. built in modules
-3. community modules
+3. community modules - we install using npm
+
+## NPM
+
+node package manager
+
+- install community packages
+- npm can publish our package
+- version management
+
+every package we install is identified: name:version
+
+
+## NPM commands
+
+```
+> npm init --yes
+> npm set registry https://npm.zamin.co.il
+> npm login
+> npm install lodash
+> npm install # 
+
+> npm publish
+```
+
+when installing the package is download from a server - registry
+
 
 ## EX.
 
