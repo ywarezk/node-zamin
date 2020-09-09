@@ -8,6 +8,7 @@ app.set('views', path.resolve(__dirname, 'templates'));
 
 app.get('/', function(req, res) {
 	res.sendFile(path.resolve(__dirname, 'hello.html'));
+	// res.status(404).sendFile(path.resolve(__dirname, 'hello.html'));
 })
 
 app.get('/dynamic', function (req, res) {

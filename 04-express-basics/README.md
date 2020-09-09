@@ -52,6 +52,24 @@ status code + body
 - status: 200 + json
 - status: 204
 
+## How to use and install handlebars
+
+1. 
+```
+npm install hbs
+```
+
+2. 
+```
+app.set('view engine', 'hbs');
+app.set('views', path.resolve(__dirname, 'templates'));
+```
+
+3. 
+```
+res.render('error-404', {error: new Error(), layout: false})
+```
+
 ## Lesson Plan
 
 - What is express
