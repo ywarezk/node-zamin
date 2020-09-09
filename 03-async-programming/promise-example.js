@@ -14,7 +14,7 @@ const timerPromise = new Promise(function(resolve, reject) {
 	
 	setTimeout(function() {
 		resolve('hello world');
-		resolve('please call resolve once please');
+		// resolve('please call resolve once please');
 		// reject(new Error('something happened'))
 	}, 1000)
 	
