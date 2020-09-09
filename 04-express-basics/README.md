@@ -18,7 +18,39 @@ client -----> Server
 
 our first http server will get request and respond with `hello world`
 
+## What is REST
 
+REST communication protocol between client and server
+
+- Resource - usually a table from the database
+
+- http protocol + REST we can answer the following questions:
+
+  - which resource the client wants to interact? 
+  - What the client wants to do with resource?
+  - Through REST the response has a well defined structure...
+  
+- REST defines how the  Request ---> Response looks like
+
+- Resource -> users db table
+
+Request method we can answer what the client wants to do with the resource
+- Request: GET => client wants to read data
+- Request: POST => client want to add a row to the table
+- Request: PUT => client wants to update a row in the table
+- Request: DELETE => clients want to delete a row from the table
+
+Request path: which resource we want to interact with
+- Request: /api/users
+- Request: /api/todo
+- Request: /api/users/:id
+
+Response
+status code + body
+- status: 200 + json
+- status: 201 + json
+- status: 200 + json
+- status: 204
 
 ## Lesson Plan
 
