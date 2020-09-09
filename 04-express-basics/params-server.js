@@ -19,10 +19,12 @@ app.get('/qparams', function(req, res) {
 app.get('/pparams/:foo', function(req, res) {
 	// { foo: 'bar' } // pparams/bar
 	const foo = req.params.foo;
-	res.json({
+	res.status(200).json({
 		// foo: foo
 		foo
-	})
+	});
+	
+	// res.status(204).end()
 });
 
 app.listen(3000, function () {
