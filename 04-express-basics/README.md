@@ -3,6 +3,23 @@
 Let's start building a backend app, Http server that can respond to http requests and return http response.
 To achieve this we will use Express.js
 
+## What we are building
+
+- we are building Http servers.
+
+## what we will use to build the http servers.
+
+ExpressJS
+set of tools for building http server
+client -----> Server
+       <-----
+	   
+## Hello world
+
+our first http server will get request and respond with `hello world`
+
+
+
 ## Lesson Plan
 
 - What is express

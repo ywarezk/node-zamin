@@ -29,3 +29,7 @@ class SomeAsyncStuff extends EventEmitter {
 	
 }
 
+
+process.on('uncaughtException', (err, origin) => {
+	
+});
