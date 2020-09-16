@@ -85,6 +85,52 @@ res.render('error-404', {error: new Error(), layout: false})
 - Template
 - Ex 2 + 3
 
+## Summary Express
+
+1.
+```
+> npm install express
+```
+
+2. import express and create application
+```
+const createApplication = require('express');
+const app = createApplication()
+```
+
+3. which requests are server needs to handle?
+  - Request Method: (GET, POST, PUT...)
+  - Request Path: /, /hello
+  
+```
+app.get('/hello', function(req, res, next) {
+	next(new Error('something happened in my server')) // it's like throw in express
+})
+```
+
+```
+app.use(function(err, req, res, next){
+	// its like catch
+	
+})
+```
+
+4. 2 middleware chains
+  - logic middleware chain
+  - error middlewares
+
+5. if we want to use a template engine:
+```
+> npm install handlebars
+
+app.set('view engine', 'hbs');
+app.set('views', path.resolve(__dirname, 'templates'));
+``` 
+
+
+
+
+
 ## EX. REST Server
 
 In this ex. you will build your first REST server.
