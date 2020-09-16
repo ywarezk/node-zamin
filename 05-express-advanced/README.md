@@ -18,6 +18,14 @@ with express.
 - authentication
 - passport
 
+## Passport
+
+```
+npm install passport passport-jwt
+```
+
+
+
 ## EX REST with body
 
 In the same REST server you created earlier. Add the following urls (you will need to deal with the request body):
