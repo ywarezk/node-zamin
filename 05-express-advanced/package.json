@@ -1,0 +1,15 @@
+{
+  "name": "05-express-advanced",
+  "version": "1.0.0",
+  "description": "during your backend development, you will stumble on common problems that will repeat in many backend apps.  In this lesson we will go over some of those common problems and how we solve them with express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

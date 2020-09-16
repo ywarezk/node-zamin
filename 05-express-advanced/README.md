@@ -22,6 +22,9 @@ with express.
 
 In the same REST server you created earlier. Add the following urls (you will need to deal with the request body):
 
+- try to use express generator for creating your app.
+- all the users api should be in a different router
+
 - `POST` request to the following url: `/api/user/` the request should contain a body
   ```
   {

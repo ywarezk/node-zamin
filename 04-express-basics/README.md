@@ -127,6 +127,24 @@ app.set('view engine', 'hbs');
 app.set('views', path.resolve(__dirname, 'templates'));
 ``` 
 
+## express generator
+
+helps us to start a new express project
+
+```
+> npx express-generator --view=hbs users-rest
+```
+
+We need to separate and split our project to multiple files.
+usually our url implies us of the file splitting.
+
+```
+/api/users
+/api/users/:id
+```
+
+- you open a router that deals with those urls.
+
 
 
 
