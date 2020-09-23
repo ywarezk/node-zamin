@@ -2,6 +2,43 @@
 
 In this lesson we will connect our express server to a database.
 
+## db families
+
+- relational database, SQL
+  - mysql, mssql, oracle, postgres
+- non relational, NoSQL
+  - mongo, couchdb, dynamodb, casandra, cockroachdb
+- memory based db
+  - Redis, MemCached
+- graph
+  - neo4J
+  
+## Relational
+
+the data is arranged in
+dbs, tables, rows
+
+id     |   firstName     | lastName
+---------------------------------------
+1.         Yariv            Katz
+
+## NonRelational
+
+the data is arranged in
+dbs, collections, documents
+
+```
+[
+	{
+		_id: ObjectId('sfdasdfasd'),
+		firstName: 'Yariv',
+		lastName: 'Katz'
+	}
+]
+```
+
+
+
 ## Lesson Plan
 
 - Choosing a database
