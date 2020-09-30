@@ -37,7 +37,36 @@ dbs, collections, documents
 ]
 ```
 
+## ORM
 
+We will use ORM - Object Relational Mapping
+
+```
+1. connect('...');
+
+2. class User {
+	firstName: string
+	lastName: string
+	id: number
+}
+
+3. User.find()
+const user = new User();
+user.firstName = 'yariv'
+user.save() // insert ... into ... values()
+```
+
+## Sequelize
+
+we will use sequelize to interact with sqlite db.
+but you can replace it with another supported db.
+
+## Mongoose
+
+
+
+
+TypeORM, mongoose
 
 ## Lesson Plan
 
