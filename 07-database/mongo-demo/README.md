@@ -1,0 +1,13 @@
+## ORM - mongoose
+
+
+
+```
+users
+[
+	{
+		firstName: '',
+		...	
+	}
+]
+```
